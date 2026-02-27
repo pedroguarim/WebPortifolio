@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #a6adbc,
+    #696d72,
+    #5c6065
+  );
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+        .barra-topo {
+            border: solid;
+            border-radius: 500px;
+            display: flex;
+            gap: 10px; 
+            background-color: rgba(29, 21, 21, 0.644);
+            color: white;
+
+            padding: 1px;
+            width: fit-content;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 10px;
+            cursor: pointer;
+            position: sticky;
+            top: 0;
+        }
+        .botao-cima {
+            background-color: rgba(44, 43, 43, 0.644);
+            border: none;
+            color: white;
+            font-size: 10px;
+            cursor: pointer;
+        }
+        #header {
+          color: rgb(8, 8, 8); font-size: 24px; 
+        }
+        .botoes-capa {
+          display: flex;
+          gap: 10px;
+        }
+        .texto-corrido {
+          color: rgb(0, 0, 0); font-size: 18px;
+        }
+
+        .home {
+          top: auto;
+        }
