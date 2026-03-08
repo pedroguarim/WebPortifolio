@@ -1,64 +1,159 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(
-    135deg,
-    #a6adbc,
-    #696d72,
-    #5c6065
-  );
+
+  background: linear-gradient(-45deg,
+      /* #0f172a,
+    #1e293b,
+    #105b7e */
+      #111827,
+      #1f2937,
+      #374151);
+
   background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
+  animation: gradient 12s ease infinite;
+
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
-@keyframes gradientBG {
+@keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
 }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* Adjust this value based on the height of your nav bar */
+}
 
 
-        .barra-topo {
-            border: solid;
-            border-radius: 500px;
-            display: flex;
-            gap: 10px; 
-            background-color: rgba(29, 21, 21, 0.644);
-            color: white;
+nav {
+  /* background-color: #bfd6c4; */
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
 
-            padding: 1px;
-            width: fit-content;
-            margin: 0 auto;
-            text-align: center;
-            font-size: 10px;
-            cursor: pointer;
-            position: sticky;
-            top: 0;
-        }
-        .botao-cima {
-            background-color: rgba(44, 43, 43, 0.644);
-            border: none;
-            color: white;
-            font-size: 10px;
-            cursor: pointer;
-        }
-        #header {
-          color: rgb(8, 8, 8); font-size: 24px; 
-        }
-        .botoes-capa {
-          display: flex;
-          gap: 10px;
-        }
-        .texto-corrido {
-          color: rgb(0, 0, 0); font-size: 18px;
-        }
+.right-bar {
+  border: solid;
+  border-radius: 5px;
+  border-color: brown;
+  display: inline-flex;
+  gap: 10px;
 
-        .home {
-          top: auto;
-        }
+  padding: 1px;
+  width: fit-content;
+  margin-left: auto;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+  top: 0;
+}
+
+.Home {
+  display: inline-block;
+  border: solid;
+  border-radius: 5px;
+  border-color: brown;
+  
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 1px;
+  font-size: 20px;
+}
+
+.right-bar a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.Home a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+nav a:hover {
+  color: rgb(255, 255, 255);
+  transition: color 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+#portifolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+#stacks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+#contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.botao-cima {
+  background-color: rgba(44, 43, 43, 0.644);
+  border: none;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#header {
+  color: rgb(8, 8, 8);
+  font-size: 24px;
+}
+
+.botoes-capa {
+  display: flex;
+  gap: 10px;
+}
+
+.texto-corrido {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
