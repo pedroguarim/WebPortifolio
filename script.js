@@ -50,7 +50,7 @@ const translations = {
     project_link: "Ver no GitHub →",
     //1
     project1_title: "Sistema de Alertas de alagamentos - TCC",
-    project1_desc: "Meu projeto de conclusão de curos onde foi desenvolvido um sistema de alertas automatizados para alagamentos na cidade com a visão de realizar uma melhoria na mobilidade urbana eficiente.",
+    project1_desc: "Meu projeto de conclusão de curso onde foi desenvolvido um sistema de alertas automatizados para alagamentos na cidade com a visão de realizar uma melhoria na mobilidade urbana eficiente.",
     //2
     project2_title: "Web Portfolio",
     project2_desc: "Este portfólio pessoal, construído do zero com HTML, CSS e JavaScript.",
