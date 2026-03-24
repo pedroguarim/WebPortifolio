@@ -56,7 +56,7 @@ const translations = {
     project2_desc: "Este portfólio pessoal, construído do zero com HTML, CSS e JavaScript.",
     //3
     project3_title: "Face Recognition",
-    project3_desc: "Aplicação de reconhecimento facial multifator, desenvolvida para uma disciplina da faculdade.",
+    project3_desc: "Aplicação de reconhecimento facial multifator, desenvolvida para um projeto de aula na faculdade.",
     // Stacks
     stacks_title: "Stacks",
     stacks_label: "Tecnologias",

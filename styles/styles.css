@@ -224,7 +224,7 @@ section {
 }
 .stat-chip strong { display: block; font-size: 1.3rem; color: var(--text); font-family: 'DM Serif Display', serif; }
 
-/* ─── SECTION LABELS ─────────────────────────────────────────────── */
+/* Section labels */
 .section-label {
   font-size: 0.72rem;
   letter-spacing: 0.15em;
@@ -246,7 +246,7 @@ section {
   font-weight: 300;
 }
 
-/* ─── DIVIDER ────────────────────────────────────────────────────── */
+/* Divider */
 .divider {
   width: 100%;
   height: 1px;
@@ -254,7 +254,7 @@ section {
   margin: 0;
 }
 
-/* ─── PROJECTS ───────────────────────────────────────────────────── */
+/* Projects */
 #projects-section { background: var(--surface); }
 .projects-header { margin-bottom: 3rem; }
 .projects-grid {
@@ -328,7 +328,7 @@ section {
   gap: 0.5rem;
 }
 
-/* ─── STACKS ─────────────────────────────────────────────────────── */
+/* Stacks */
 #stacks { background: var(--bg); }
 .stacks-header { margin-bottom: 3rem; }
 .stacks-grid {
@@ -360,7 +360,7 @@ section {
 .stack-item:hover svg { fill: var(--accent); }
 .stack-name { font-size: 0.78rem; color: var(--muted); letter-spacing: 0.05em; }
 
-/* ─── CONTACT ────────────────────────────────────────────────────── */
+/* Contact */
 #contact-me {
   background: var(--surface);
   display: flex;
@@ -416,7 +416,7 @@ section {
 }
 .copy-btn:hover { background: rgba(200,180,255,0.22); }
 
-/* ─── FOOTER ─────────────────────────────────────────────────────── */
+/* Footer */
 footer {
   background: var(--bg);
   border-top: 1px solid var(--border);
@@ -427,7 +427,7 @@ footer {
   letter-spacing: 0.04em;
 }
 
-/* ─── RESPONSIVE ─────────────────────────────────────────────────── */
+/* Responsive */
 @media (max-width: 768px) {
   #about-me {
     grid-template-columns: 1fr;
