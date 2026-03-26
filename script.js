@@ -63,7 +63,7 @@ const translations = {
     stacks_desc: "Algumas das ferramentas e tecnologias com as quais trabalho no dia a dia e busco desenvolver com projetos pessoais.",
     // Contact
     contact_label: "Fale comigo",
-    contact_desc: "Aberto a novas oportunidades e colaborações. Sinta-se à vontade para me encontrar nas redes sociais ou entrar em contato clicando no e-mail.",
+    contact_desc: "Sinta-se à vontade para me encontrar nas redes sociais ou entrar em contato clicando no e-mail.",
     contact_title: "Contato",
     contact_copy: "Copiar",
     contact_copied: "Copiado!",
@@ -104,7 +104,7 @@ const translations = {
     stacks_desc: "Some of the tools and technologies I work with daily and seek to develop with personal projects.",
     // Contact
     contact_label: "Contact me",
-    contact_desc: "Open to new opportunities and collaborations. Feel free to find me on social media or get in touch by clicking the email.",
+    contact_desc: "Feel free to find me on social media or get in touch by clicking the email.",
     contact_title: "Contact",
     contact_copy: "Copy",
     contact_copied: "Copied!",
